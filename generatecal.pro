@@ -7,6 +7,6 @@ pro GenerateCal, scan, calibration = calstr
   if n_elements(calstr) eq 0 then begin 
      calstr = {tcal:5.0}
   endif
-
+  
   return
 end
